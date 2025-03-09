@@ -1,0 +1,7 @@
+[
+    { "id": 1, "menuName": "Mainpage", "pathName": "/" },
+    { "id": 2, "menuName": "About Us", "pathName": "/about-us" },
+    { "id": 3, "menuName": "Blog", "pathName": "/blog" },
+    { "id": 4, "menuName": "Contact", "pathName": "/contact" }
+]
+  
