@@ -3,11 +3,12 @@ import React from "react";
 
 const Slide = ({ image, alt }) => {
   return (
-    <div className="w-full h-full relative">
+    <div className="w-full h-[75vh] overflow-hidden">
       <Image
         src={image}
-        layout="fill"
-        objectFit="contain" // Keeps aspect ratio
+        width={1920}
+        height={1080}
+        style={{objectFit:"contain", layout:"fill"}} // Keeps aspect ratio
         alt={alt}
       />
     </div>
