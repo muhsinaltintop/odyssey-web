@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Logo from './atoms/Logo';
 import SingleMenuItem from './atoms/SingleMenuItem';
-import menuItems from '../../public/MenuItems.json';
+import menuItems from '../../public/menuItems.json';
 
 const MainMenu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
